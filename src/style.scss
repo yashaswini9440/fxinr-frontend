@@ -1,0 +1,94 @@
+
+.panel >.panel-custom-color{
+  border-color: #0d3d56;
+}
+.panel-custom-color > .panel-heading {
+    background: #0d3d56;
+    color: ghostwhite;
+    border-color: #0d3d56;
+}
+#col-sml-4 span{
+    position:absolute;
+    bottom:0;
+    right:0;
+}
+#fxinr-logo {
+    width: 30px;
+    height: 30px;
+}
+.header-text {
+text-align:center;
+color:#0d3d56;
+}
+
+#logo img {
+ height: 75px;
+}
+
+#fxinr-header {
+background-color:#e6eeff;
+}
+.header-box{
+text-align: center;
+vertical-align: middle;
+}
+#text-center{
+    padding-left: 1px;
+    font-size: 22px;
+    color: #107896;
+    font-family: "Crimson Text";
+    font-weight: 600;
+}
+
+@media only screen and (min-width: 760px) {
+  #text-center{ padding-top: 10px;
+    padding-left: 10px;
+  }
+}
+.verticalLine {
+      border-left: thick solid rgb(27, 20, 100);
+      margin-left: 10px;
+      height: 55px;
+}
+body {
+background-color: #ecf2f9;
+}
+@media (min-width: 768px) {
+#logo {
+ text-align: right;
+}
+
+}
+
+.inputBoxStyle {
+  font-weight: bold;
+  border: 2px solid #dff0d8;
+  padding-right:1px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.disclaimer {
+    padding:20px;
+}
+
+.popover{
+    max-width: 100%; /* Max Width of the popover (depending on the container!) */
+
+}
+#rupeeRate.popover-content {background-color:#dff0d8;}
+.touch {
+    cursor: pointer
+}
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+#progressbar {
+  width:75%;
+}
+
+#progress{
+  margin: 5px;
+}
