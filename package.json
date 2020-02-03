@@ -13,7 +13,8 @@
     "webpack-dev-server": "^2.9.3"
   },
   "scripts": {
- 
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "dev": "webpack-dev-server --hot --inline"
   },
   "license": "MIT",
@@ -29,5 +30,15 @@
     "sass-loader": "^6.0.6",
     "style-loader": "^0.19.0",
     "url-loader": "^0.6.2"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yashaswini9440/fxinr-frontend.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/yashaswini9440/fxinr-frontend/issues"
+  },
+  "homepage": "https://github.com/yashaswini9440/fxinr-frontend#readme"
 }
